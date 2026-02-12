@@ -8,8 +8,9 @@
 # fraction affected.
 #
 # This is adapted from the simulation study in Section 5 of:
-#   Fava, B. (2024). "The Distribution of Treatment Effects: Covariate-Adjusted
-#   Inference."
+#   Fava, B. (2024). "Predicting the Distribution of Treatment Effects via
+#   Covariate-Adjustment, with an Application to Microcredit."
+#   arXiv:2407.14635. https://arxiv.org/abs/2407.14635
 #
 # Required packages: tidyverse, rsample, ranger, doMC, mvtnorm
 # =============================================================================

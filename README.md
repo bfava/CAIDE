@@ -2,7 +2,7 @@
 
 R implementation of the **CAIDE** estimator from:
 
-> Fava, B. (2024). *The Distribution of Treatment Effects: Covariate-Adjusted Inference.* Working Paper.
+> Fava, B. (2024). *Predicting the Distribution of Treatment Effects via Covariate-Adjustment, with an Application to Microcredit.* [arXiv:2407.14635](https://arxiv.org/abs/2407.14635).
 
 CAIDE bounds the fraction of units with treatment effects below (or above) a given threshold in randomized experiments, using pre-treatment covariates and machine learning to sharpen classical [Makarov (1982)](https://doi.org/10.1137/1126065) bounds.
 
@@ -21,23 +21,22 @@ Without further assumptions, $\theta(\delta)$ is only partially identified. Clas
 ### Key Features
 
 - **Tighter bounds** than standard Makarov bounds when covariates are predictive of outcomes
-- **Automatic model selection** across multiple ML methods (random forests, neural networks, SVMs, etc.)
-- **Two estimation strategies**: cross-fitting (recommended) and sample splitting
-- **Valid asymptotic inference** with standard errors and confidence intervals
+- **Two estimation strategies**: cross-fitting (recommended for most applications) and sample splitting
+- **Valid asymptotic inference** with standard errors and confidence intervals using cross-fitting
 - **Finite-sample valid** confidence intervals via the sample-splitting estimator
 
 ---
 
 ## Installation
 
-Clone this repository:
+<!-- Clone this repository:
 
 ```bash
 git clone https://github.com/bfava/CAIDE.git
 cd CAIDE
-```
+``` -->
 
-### R Dependencies
+<!-- ### R Dependencies -->
 
 Install the required packages:
 

@@ -8,8 +8,9 @@
 # learning to sharpen classical Makarov bounds.
 #
 # Main references:
-#   Fava, B. (2024). "The Distribution of Treatment Effects: Covariate-Adjusted
-#   Inference." Working Paper.
+#   Fava, B. (2024). "Predicting the Distribution of Treatment Effects via
+#   Covariate-Adjustment, with an Application to Microcredit."
+#   arXiv:2407.14635. https://arxiv.org/abs/2407.14635
 #
 # Two main estimators are provided:
 #   - caide_cf()  : Cross-fitting estimator (recommended)
