@@ -1,0 +1,26 @@
+# R session files
+.Rhistory
+.RData
+.Rproj.user
+
+# R environment
+.Renviron
+.Rprofile
+
+# Output files
+*.rds
+*.RData
+*.Rdata
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# Slurm logs
+*.out
+Log/
